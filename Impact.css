@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: genshin_font;
+  src: url('FONTS/Genshin_Impact.ttf')
+}
+h1,h2,h3,h5,p,a,li,div {
+  font-family: genshin_font;
+  color:white;
+}
+body{
+  background-color: black;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:rgb(133,64,245);
+}
+.modal-body,.modal-header,.modal-footer{
+  background-color: rgb(22, 0, 64);
+}
+.img-thumbnail{
+  background-color: rgb(255,193,7);
+  border-color: rgb(255,193,7);
+}
+
+.burn{
+  position: relative;
+  top:-50px;
+  left: 58px;
+background-image: linear-gradient(90deg, yellow, orange, red, yellow);
+background-size: auto auto;
+ background-clip: border-box;
+ background-size: 200% auto;
+ background-clip: text;
+
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ animation: textclip 4s linear infinite;
+ display: inline-block;
+     font-size: 30px;
+
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
